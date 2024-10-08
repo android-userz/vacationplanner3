@@ -1,0 +1,13 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">VacationPlanner</string>
+    <string name="view_vacations">View Vacations</string>
+    <string name="add_vacation">Add Vacation</string>
+    <string name="add_excursion">Add Excursion</string>
+    <string name="view_excursions">View Excursions</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="delete_vacation">Delete Vacation</string>
+    <string name="delete_excursion">Delete Excursion</string>
+    <!-- Add more strings as needed -->
+</resources>
