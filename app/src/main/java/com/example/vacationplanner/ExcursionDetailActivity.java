@@ -56,6 +56,22 @@ public class ExcursionDetailActivity extends AppCompatActivity {
 
         setupDatePicker();
         setupSaveButton();
+
+        // Find the delete button
+        Button btnDelete = findViewById(R.id.btnDeleteExcursion);
+
+        // Set the click listener for the delete button
+        btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                deleteExcursion();
+            }
+        });
+        if (currentExcursion != null) {
+            btnDelete.setVisibility(View.VISIBLE); // Show delete button if editing
+        } else {
+            btnDelete.setVisibility(View.GONE); // Hide delete button if creating a new excursion
+        }
     }
 
     private void loadExcursion(int excursionId) {

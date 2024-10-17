@@ -64,4 +64,7 @@ public class ExcursionAdapter extends RecyclerView.Adapter<ExcursionAdapter.Excu
     public interface ExcursionClickListener {
         void onExcursionClick(Excursion excursion);
     }
+    public interface DeleteClickListener {
+        void onDeleteClick(Excursion excursion);
+    }
 }

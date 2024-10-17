@@ -30,5 +30,15 @@
             android:text="Date: MM/DD/YYYY"
             android:textSize="16sp" />
 
+        <!-- Delete Button -->
+        <Button
+            android:id="@+id/btnDeleteExcursion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textColor="@android:color/white" />
+
     </LinearLayout>
 </androidx.cardview.widget.CardView>
