@@ -25,7 +25,7 @@ Application Flow
  Steps to Install
 1. Clone the repository:
     
-    https://github.com/android-userz/vacationplanner2
+    https://github.com/android-userz/vacationplanner
 2. Open the project in Android Studio.
 3. Build the project:
     - Click on `Build` > `Make Project` or press `Ctrl+F9`.
